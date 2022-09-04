@@ -1,0 +1,117 @@
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  
+
+  background: var(--green);
+  max-width: 250px;
+  height: 100vh;
+
+  
+
+}
+.main {
+   display: flex;
+   justify-content: space-between;
+   margin: 8px 14px;
+}
+.main button {
+  border: 0;
+  background: transparent;
+  margin: 0 12px;
+}
+.main button:hover, .main img:hover{
+  opacity: 0.6;
+}
+
+
+nav {
+   flex: 1;
+   font-family: 'Poppins', sans-serif;
+   font-weigth: 400;
+   color: var(--text-color);
+   margin: 20px 14px;
+
+}
+nav ul{
+  list-style: none;
+}
+nav, nav ul li, nav ul li a{
+  font-family: 'Poppins', sans-serif;
+  font-weigth: 400;
+  color: var(--text-color)
+} 
+nav form input {
+  height: 50px;
+  width: 100%;
+  border: 0;
+  border-radius: 12px;
+  background: var(--light-green);
+  margin-bottom: 20px;
+}
+nav ul li{
+  margin-bottom: 20px;
+  
+}
+nav ul li a img{
+  margin-right: 12px;
+  margin-left: 12px;
+}
+nav ul li a span{
+  overflow:hidden;
+}
+
+
+
+
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  background: var(--light-green);
+  padding: 8px 10px;
+  height: 60px;
+}
+.user .avatar {
+  width: 45px;
+  height: 45px;
+  border-radius:12px;
+  object-fit: cover;
+
+}
+.user .user-info{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  font-weigth: 400;
+  
+  margin-left: 10px;
+
+}
+.user .user-name {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+}
+.user .user-occupation {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+
+}
+.user button {
+  
+  border: 0;
+  background: transparent;
+  margin: 0 12px;
+}
+
+
